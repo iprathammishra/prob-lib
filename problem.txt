@@ -1,0 +1,13 @@
+Problem Statement:
+
+Design a Python program using the concept of classes to manage a library system. The system should be able to handle the following tasks:
+
+Add Book: This will be used to add a new book to the library. A book can have details like book_id, book_name, author, and quantity.
+
+Display Books: This will show all the books available in the library.
+
+Borrow Book: This will allow users to borrow a book from the library. Users should provide their user_id and the book_id they wish to borrow. If the book is available in the library, the system should allocate the book to the user and decrease the quantity of that book.
+
+Book Info: This will show the details of a book.
+
+Remember, you need to use classes and objects to solve this problem. For example, you can create a class named Library that has methods like add_book, display_books, return_book, and book_info. You can also create a class named Book to hold details related to a book.
